@@ -1,10 +1,9 @@
 # Curiosity LLM
 
-## Curiosity-14.0
+## Update: A New Version of Curiosity LLM is in development!
 
-
-### Example Demo Images (Version 14.0): (you can view more in "Demo Images" folder)
-![Quantum-Physics-Simple-Question](https://github.com/user-attachments/assets/1bd5418c-4ec7-4883-aba1-f9629d97b4f5)
-![Vacation-Question-South-America](https://github.com/user-attachments/assets/283d73ed-eb5f-47cb-bf09-688ee0537d43)
-![Programming-Example-3](https://github.com/user-attachments/assets/824789d8-3977-4ae8-b3df-edb434aeedcc)
-![Oppenheimer-Question](https://github.com/user-attachments/assets/a4075998-ddbd-49e9-b36d-5ef480ecca30)
+### Example Demo Images (Version 14.0): (you can view more in "Demo Images" folder) | Curiosity-14
+* ![Quantum-Physics-Simple-Question](https://github.com/user-attachments/assets/1bd5418c-4ec7-4883-aba1-f9629d97b4f5)
+* ![Vacation-Question-South-America](https://github.com/user-attachments/assets/283d73ed-eb5f-47cb-bf09-688ee0537d43)
+* ![Programming-Example-3](https://github.com/user-attachments/assets/824789d8-3977-4ae8-b3df-edb434aeedcc)
+* ![Oppenheimer-Question](https://github.com/user-attachments/assets/a4075998-ddbd-49e9-b36d-5ef480ecca30)

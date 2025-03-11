@@ -7,5 +7,5 @@
 * ![Vacation-Question-South-America](https://github.com/user-attachments/assets/283d73ed-eb5f-47cb-bf09-688ee0537d43)
 * ![Oppenheimer-Question](https://github.com/user-attachments/assets/a4075998-ddbd-49e9-b36d-5ef480ecca30)
 
-## HuggingFace Link | Download
-##
+## [HuggingFace Link](https://huggingface.co/ariankharazmi/Curiosity-LLM)
+* New!

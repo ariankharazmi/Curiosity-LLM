@@ -12,3 +12,4 @@
 ## [Ollama Link](https://ollama.com/ariankharazmi/curiosity-15.29)
 * To run in your terminal with Ollama: ollama run ariankharazmi/curiosity-15.29
 * Inference testing, no need to re-run process
+* Works with OpenWebUI

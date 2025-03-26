@@ -8,4 +8,7 @@
 * ![Oppenheimer-Question](https://github.com/user-attachments/assets/a4075998-ddbd-49e9-b36d-5ef480ecca30)
 
 ## [HuggingFace Link](https://huggingface.co/ariankharazmi/Curiosity-LLM)
-* New!
+* Training/fine-tuning files included for re-running process
+## [Ollama Link](https://ollama.com/ariankharazmi/curiosity-15.29)
+* To run in your terminal with Ollama: ollama run ariankharazmi/curiosity-15.29
+* Inference testing, no need to re-run process

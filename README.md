@@ -9,9 +9,9 @@
 * ![Vacation-Question-South-America](https://github.com/user-attachments/assets/283d73ed-eb5f-47cb-bf09-688ee0537d43)
 * ![Oppenheimer-Question](https://github.com/user-attachments/assets/a4075998-ddbd-49e9-b36d-5ef480ecca30)
 
-## [HuggingFace Link](https://huggingface.co/ariankharazmi/Curiosity-LLM)
+## [HuggingFace Link](https://huggingface.co/ariankharazmi/Curiosity-15) (Curiosity-15)
 * Training/fine-tuning files included for re-running process
-## [Ollama Link](https://ollama.com/ariankharazmi/curiosity-15.29)
+## [Ollama Link](https://ollama.com/ariankharazmi/curiosity-15.29) (Curiosity-15)
 * To run in your terminal with Ollama: ollama run ariankharazmi/curiosity-15.29
 * Inference testing, no need to re-run process
 * Works with OpenWebUI

@@ -1,7 +1,6 @@
 # Curiosity LLM
 
 * ## Update: Curiosity-16 will begin development this summer.
-* ## Update: .29 will be dropped from the public release name of Curiosity-15 going forward. It's cleaner.
 ## Curiosity LLM is a low level LLM, originally created as part of the UC Summer 2024 EEP co-op session, this model has been continued to be developed on beyond the co op’s completion. This model aims to be a lightweight conversational AI. 
 * ## Built on GPT-2 and GPT-2 Tokenizer.
 * ### Example Demo Images (Version 14.0): (you can view more in "Demo Images" folder) | Curiosity-14 | (August 2024)

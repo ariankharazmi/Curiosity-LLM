@@ -1,6 +1,7 @@
 # Curiosity LLM
 
 * ## Update: Curiosity-16 will begin development this summer.
+* ## Curiosity-14 and Curiosity-15 (interact.py) is built to run on x86_64 architecture. Curiosity-16 (IDE-pipeline) will be built to run on ARM Architecture.
 ## Curiosity LLM is a low level LLM, originally created as part of the UC Summer 2024 EEP co-op session, this model has been continued to be developed on beyond the co op’s completion. This model aims to be a lightweight conversational AI. 
 * ## Built on GPT-2 and GPT-2 Tokenizer.
 * ### Example Demo Images (Version 14.0): (you can view more in "Demo Images" folder) | Curiosity-14 | (August 2024)

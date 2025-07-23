@@ -1,7 +1,6 @@
 # Curiosity LLM
 
-* ## Update: Curiosity-16 will begin development this summer.
-* ## Curiosity-14 and Curiosity-15 (interact.py) is built to run on x86_64 architecture. Curiosity-16 (IDE-pipeline) will be built to run on ARM Architecture.
+* ## Update: Curiosity-16 is active development.
 ## Curiosity LLM is a low level LLM, originally created as part of the UC Summer 2024 EEP co-op session, this model has been continued to be developed on beyond the co op’s completion. This model aims to be a lightweight conversational AI. 
 * ## Built on GPT-2 and GPT-2 Tokenizer.
 * ### Example Demo Images (Version 14.0): (you can view more in "Demo Images" folder) | Curiosity-14 | (August 2024)
@@ -9,9 +8,9 @@
 * ![Vacation-Question-South-America](https://github.com/user-attachments/assets/283d73ed-eb5f-47cb-bf09-688ee0537d43)
 * ![Oppenheimer-Question](https://github.com/user-attachments/assets/a4075998-ddbd-49e9-b36d-5ef480ecca30)
 
-## [HuggingFace Link](https://huggingface.co/ariankharazmi/Curiosity-15) (Curiosity-15)
+## [HuggingFace Link]() (Curiosity-16) * Will be uploaded soon
 * Training/fine-tuning files included for re-running process
-## [Ollama Link](https://ollama.com/ariankharazmi/curiosity-15.29) (Curiosity-15)
-* To run in your terminal with Ollama: ollama run ariankharazmi/curiosity-15.29
+## [Ollama Link](https://ollama.com/ariankharazmi/curiosity-15.29) (Curiosity-16) * Will be uploaded soon
+* To run in your terminal with Ollama: ****
 * Inference testing, no need to re-run process
 * Works with OpenWebUI

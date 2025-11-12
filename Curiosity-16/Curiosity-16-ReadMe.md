@@ -1,7 +1,7 @@
 # Curiosity-16.2025.08.07 README.MD - Author: Arian Kharazmi - License: Apache 2.0
 
 ## Model Summary
-Parameters: 404M Parameters  
+Parameters: 406.29M Parameters  
 Base: GPT-2 Medium (Decoder)  
 Tokenizer: AutoTokenizer  
 Training: 2-Phase Full SFT  

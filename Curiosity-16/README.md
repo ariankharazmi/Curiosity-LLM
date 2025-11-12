@@ -13,7 +13,7 @@ tags:
 
 Model Summary
 
-- Parameters: 404M Parameters
+- Parameters: 406.29M Parameters
 
 - Base: GPT-2 Medium (Decoder)
 

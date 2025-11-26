@@ -1,0 +1,12 @@
+C16-param-count:
+
+“ariankharazmi@mac ~ % ollama show curiosity-16-f32
+  Model
+    architecture gpt2
+    parameters 406.29M
+    context length 1024
+    embedding length 1024
+    quantization unknown
+  Capabilities
+    completion
+ariankharazmi@mac ~ % “ okay. Keep in mind that I did not end up uploading this model to Ollama, but I think this is where I found it””

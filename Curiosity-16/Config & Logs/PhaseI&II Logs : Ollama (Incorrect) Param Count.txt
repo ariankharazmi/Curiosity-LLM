@@ -1,0 +1,129 @@
+C16 Phase I & Phase II Logs + Model Parameter Information:
+
+Process finished with exit code 0" and Phase II: 
+
+Phase I: "
+Everything good? Checking on Phase I: 33%|███▎      | 4125/12375 [3:56:33<12:16:41,  5.36s/it]
+100%|██████████| 500/500 [01:38<00:00,  5.17it/s]
+                                                 {'eval_loss': 2.895951271057129, 'eval_runtime': 99.2619, 'eval_samples_per_second': 10.074, 'eval_steps_per_second': 5.037, 'epoch': 1.0}
+[codecarbon INFO @ 17:22:48] Energy consumed for RAM : 0.011830 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 17:22:48] Delta energy consumed for CPU with constant : 0.000177 kWh, power : 42.5 W
+[codecarbon INFO @ 17:22:48] Energy consumed for All CPU : 0.167590 kWh
+[codecarbon INFO @ 17:22:48] 0.179420 kWh of electricity used since the beginning.
+[codecarbon INFO @ 17:22:52] Energy consumed for RAM : 0.011855 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 17:22:52] Delta energy consumed for CPU with constant : 0.000177 kWh, power : 42.5 W
+[codecarbon INFO @ 17:22:52] Energy consumed for All CPU : 0.167942 kWh
+[codecarbon INFO @ 17:22:52] 0.179796 kWh of electricity used since the beginning.
+ 33%|███▎      | 4127/12375 [3:56:45<60:55:21, 26.59s/it]
+
+
+How do we look: 100%|██████████| 12375/12375 [16:19:38<00:00,  5.35s/it][codecarbon INFO @ 05:45:51] Energy consumed for RAM : 0.048982 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 05:45:51] Delta energy consumed for CPU with constant : 0.000174 kWh, power : 42.5 W
+[codecarbon INFO @ 05:45:51] Energy consumed for All CPU : 0.693920 kWh
+[codecarbon INFO @ 05:45:51] 0.742902 kWh of electricity used since the beginning.
+{'eval_loss': 2.850926399230957, 'eval_runtime': 97.8552, 'eval_samples_per_second': 10.219, 'eval_steps_per_second': 5.11, 'epoch': 3.0}
+{'train_runtime': 58778.7473, 'train_samples_per_second': 3.369, 'train_steps_per_second': 0.211, 'train_loss': 2.321741418087121, 'epoch': 3.0}
+Finshed transfer learning (phase 1 fine-tuning)...
+EmissionsTracker has completed process.
+100%|██████████| 12375/12375 [16:19:38<00:00,  4.75s/it]
+[codecarbon INFO @ 05:45:51] Energy consumed for RAM : 0.049004 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 05:45:51] Delta energy consumed for CPU with constant : 0.000125 kWh, power : 42.5 W
+[codecarbon INFO @ 05:45:51] Energy consumed for All CPU : 0.694227 kWh
+[codecarbon INFO @ 05:45:51] 0.743230 kWh of electricity used since the beginning.
+
+Process finished with exit code 0"
+
+
+
+Phase II: "I apologize, that log was from an earlier (bad) run for C16. Here’s the right one: “Ok it finished overnight, here are the logs I captured: 0%| | 1/12524 [00:04<13:49:47, 3.98s/it]{'loss': 2.2838, 'grad_norm': 5.020626068115234, 'learning_rate': 0.0, 'epoch': 0.0}
+[codecarbon INFO @ 18:26:37] 0.114373 kWh of electricity used since the beginning.
+ 20%|█▉ | 2500/12524 [2:30:51<10:05:07, 3.62s/it]{'loss': 1.715, 'grad_norm': 3.0357747077941895, 'learning_rate': 8.337491683300067e-06, 'epoch': 0.4}
+ 20%|█▉ | 2502/12524 [2:30:58<10:04:17, 3.62s/it][codecarbon INFO @ 18:26:50] Energy consumed for RAM : 0.007566 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 20:27:11] 0.205793 kWh of electricity used since the beginning.
+ 36%|███▌ | 4500/12524 [4:31:34<8:02:32, 3.61s/it]{'loss': 1.6824, 'grad_norm': 3.2433836460113525, 'learning_rate': 6.674151696606786e-06, 'epoch': 0.72}
+[codecarbon INFO @ 20:27:24] Energy consumed for RAM : 0.013593 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 20:27:24] Delta energy consumed for CPU with constant : 0.000177 kWh, power : 42.5 W
+[codecarbon INFO @ 20:27:24] Energy consumed for All CPU : 0.192577 kWh
+]44%|████▍ | 5500/12524 [5:46:19<10:38:09, 5.45s/it]{'loss': 1.689, 'grad_norm': 3.3924999237060547, 'learning_rate': 5.8424817032601465e-06, 'epoch': 0.88}
+                                                 Saving model checkpoint to ./PhaseII-checkpoint/checkpoint-6262
+Configuration saved in ./PhaseII-checkpoint/checkpoint-6262/config.json
+Configuration saved in ./PhaseII-checkpoint/checkpoint-6262/generation_config.json
+{'eval_loss': 1.6256579160690308, 'eval_runtime': 76.536, 'eval_samples_per_second': 10.453, 'eval_steps_per_second': 2.613, 'epoch': 1.0}
+[codecarbon INFO @ 22:34:00] Energy consumed for RAM : 0.019909 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 22:34:00] Delta energy consumed for CPU with constant : 0.000183 kWh, power : 42.5 W
+ 52%|█████▏ | 6500/12524 [6:52:28<6:00:40, 3.59s/it]{'loss': 1.6553, 'grad_norm': 2.568723440170288, 'learning_rate': 5.010811709913507e-06, 'epoch': 1.04}
+[codecarbon INFO @ 23:18:31] 0.335721 kWh of electricity used since the beginning.
+ 56%|█████▌ | 7000/12524 [7:22:45<5:32:03, 3.61s/it]{'loss': 1.6466, 'grad_norm': 3.2197988033294678, 'learning_rate': 4.594976713240187e-06, 'epoch': 1.12}
+[codecarbon INFO @ 00:48:48] 0.404192 kWh of electricity used since the beginning.
+ 68%|██████▊ | 8500/12524 [8:53:02<4:02:00, 3.61s/it]{'loss': 1.6245, 'grad_norm': 3.349564552307129, 'learning_rate': 3.3474717232202266e-06, 'epoch': 1.36}
+ 68%|██████▊ | 8502/12524 [8:53:09<4:02:36, 3.62s/it][codecarbon INFO @ 00:49:01] Energy consumed for RAM : 0.026674 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 02:49:36] Energy consumed for All CPU : 0.463113 kWh
+[codecarbon INFO @ 02:49:36] 0.495803 kWh of electricity used since the beginning.
+ 84%|████████▍ | 10500/12524 [10:53:59<2:01:54, 3.61s/it]{'loss': 1.6266, 'grad_norm': 3.7493247985839844, 'learning_rate': 1.6841317365269464e-06, 'epoch': 1.68}
+[codecarbon INFO @ 02:49:49] Energy consumed for RAM : 0.032714 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 02:49:49] Delta energy consumed for CPU with constant : 0.000177 kWh, power : 42.5 W
+[codecarbon INFO @ 02:49:49] Energy consumed for All CPU : 0.463461 kWh
+[codecarbon INFO @ 02:49:49] 0.496175 kWh of electricity used since the beginning.
+[codecarbon INFO @ 03:19:52] 0.518753 kWh of electricity used since the beginning.
+ 88%|████████▊ | 11000/12524 [11:24:07<1:31:48, 3.61s/it]{'loss': 1.625, 'grad_norm': 2.981618881225586, 'learning_rate': 1.2682967398536262e-06, 'epoch': 1.76}
+ 88%|████████▊ | 11002/12524 [11:24:14<1:31:40, 3.61s/it][codecarbon INFO @ 03:20:05] Energy consumed for RAM : 0.034228 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 03:20:05] Delta energy consumed for CPU with constant : 0.000177 kWh, power : 42.5 W
+[codecarbon INFO @ 03:20:05] Energy consumed for All CPU : 0.484898 kWh
+[codecarbon INFO @ 03:50:06] 0.541887 kWh of electricity used since the beginning.
+ 92%|█████████▏| 11500/12524 [11:54:18<1:01:48, 3.62s/it]{'loss': 1.6317, 'grad_norm': 3.362718105316162, 'learning_rate': 8.524617431803061e-07, 'epoch': 1.84}
+[codecarbon INFO @ 03:50:08] Energy consumed for RAM : 0.035716 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 03:50:08] Delta energy consumed for CPU with constant : 0.000177 kWh, power : 42.5 W
+[codecarbon INFO @ 04:19:54] 0.564273 kWh of electricity used since the beginning.
+ 96%|█████████▌| 12000/12524 [12:24:18<31:17, 3.58s/it]{'loss': 1.6084, 'grad_norm': 3.9580516815185547, 'learning_rate': 4.366267465069861e-07, 'epoch': 1.92}
+[codecarbon INFO @ 04:20:07] Energy consumed for RAM : 0.037229 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 04:20:07] Delta energy consumed for CPU with constant : 0.000177 kWh, power : 42.5 W
+[codecarbon INFO @ 04:49:54] 0.587031 kWh of electricity used since the beginning.
+100%|█████████▉| 12500/12524 [12:54:17<01:26, 3.60s/it]{'loss': 1.6257, 'grad_norm': 2.7975428104400635, 'learning_rate': 2.0791749833666e-08, 'epoch': 2.0}
+[codecarbon INFO @ 04:50:07] Energy consumed for RAM : 0.038729 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 04:50:07] Delta energy consumed for CPU with constant : 0.000177 kWh, power : 42.5 W
+100%|██████████| 12524/12524 [12:56:58<00:00, 2.87s/it]
+100%|██████████| 200/200 [01:16<00:00, 2.62it/s]
+                                                 Saving model checkpoint to ./PhaseII-checkpoint/checkpoint-12524
+Configuration saved in ./PhaseII-checkpoint/checkpoint-12524/config.json
+Configuration saved in ./PhaseII-checkpoint/checkpoint-12524/generation_config.json
+{'eval_loss': 1.614437222480774, 'eval_runtime': 76.4918, 'eval_samples_per_second': 10.459, 'eval_steps_per_second': 2.615, 'epoch': 2.0}
+Model weights saved in ./PhaseII-checkpoint/checkpoint-12524/model.safetensors
+tokenizer config file saved in ./PhaseII-checkpoint/checkpoint-12524/tokenizer_config.json
+Special tokens file saved in ./PhaseII-checkpoint/checkpoint-12524/special_tokens_map.json
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from ./PhaseII-checkpoint/checkpoint-12524 (score: 1.614437222480774).
+[codecarbon INFO @ 04:52:52] Energy consumed for RAM : 0.038867 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 04:52:52] Delta energy consumed for CPU with constant : 0.000177 kWh, power : 42.5 W
+[codecarbon INFO @ 04:52:52] Energy consumed for All CPU : 0.550623 kWh
+[codecarbon INFO @ 04:52:52] 0.589490 kWh of electricity used since the beginning.
+There were missing keys in the checkpoint model loaded: ['lm_head.weight'].
+100%|██████████| 12524/12524 [12:57:05<00:00, 2.87s/it][codecarbon INFO @ 04:52:53] Energy consumed for RAM : 0.038854 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 04:52:53] Delta energy consumed for CPU with constant : 0.000159 kWh, power : 42.5 W
+[codecarbon INFO @ 04:52:53] Energy consumed for All CPU : 0.550434 kWh
+[codecarbon INFO @ 04:52:53] 0.589287 kWh of electricity used since the beginning.
+{'train_runtime': 46625.0229, 'train_samples_per_second': 2.149, 'train_steps_per_second': 0.269, 'train_loss': 1.6755420957956402, 'epoch': 2.0}
+100%|██████████| 12524/12524 [12:57:05<00:00, 3.72s/it]
+[codecarbon INFO @ 04:52:53] Energy consumed for RAM : 0.038868 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 04:52:53] Delta energy consumed for CPU with constant : 0.000009 kWh, power : 42.5 W
+[codecarbon INFO @ 04:52:53] Energy consumed for All CPU : 0.550633 kWh
+[codecarbon INFO @ 04:52:53] 0.589500 kWh of electricity used since the beginning.
+***** Running Evaluation *****
+  Num examples = 800
+  Batch size = 4
+/Users/ariankharazmi/PycharmProjects/Curiosity16-run1/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+Finshed transfer learning (phase 2 fine-tuning)...
+EmissionsTracker has completed process.
+100%|██████████| 200/200 [01:16<00:00, 2.63it/s]
+Evaluation results: {'eval_loss': 1.614437222480774, 'eval_runtime': 76.5243, 'eval_samples_per_second': 10.454, 'eval_steps_per_second': 2.614, 'epoch': 2.0}
+Process finished with exit code 0”" and here's one more log: "“Last login: Sun Aug 10 17:52:58 on ttys000
+ariankharazmi@mac ~ % ollama show curiosity-16-f32
+  Model
+    architecture gpt2
+    parameters 406.29M
+    context length 1024
+    embedding length 1024
+    quantization unknown
+  Capabilities
+    completion
+ariankharazmi@mac ~ % “ okay. Keep in mind that I did not end up uploading this model to Ollama, but I think this is where I found it"

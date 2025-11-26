@@ -28,4 +28,4 @@ Model Summary
 - Limitations: Hard-limit at 1-2 Sentences, tends to misunderstand, no safety filter, prone to hallucinate
 
 Description
-- Curiosity-16 is a small research model (based on pre-trained GPT-2 Medium) that has 404M Parameters. It uses training samples from 11 diverse HuggingFace datasets.
+- Curiosity-16 is a small research model (based on pre-trained GPT-2 Medium) that has 354.8M Parameters. It uses training samples from 11 diverse HuggingFace datasets.

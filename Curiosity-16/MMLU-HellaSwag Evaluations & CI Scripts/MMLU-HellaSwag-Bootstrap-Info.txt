@@ -1,0 +1,93 @@
+HellaSwag & MMLU bootstrap info:
+
+MMLU-C16: "  
+
+"config": {
+    "model": "hf",
+    "model_args": "pretrained=ariankharazmi/Curiosity-16",
+    "model_num_parameters": 354823168,
+    "model_dtype": "torch.float32",
+    "model_revision": "main",
+    "model_sha": "a689ed4383cc79e51d3185efdb09c1951cd99934",
+    "batch_size": "8",
+    "batch_sizes": [],
+    "device": "mps",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },"
+
+MMLU-GPT-2M: "
+
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=openai-community/gpt2-medium",
+    "model_num_parameters": 354823168,
+    "model_dtype": "torch.float32",
+    "model_revision": "main",
+    "model_sha": "6dcaa7a952f72f9298047fd5137cd6e4f05f41da",
+    "batch_size": "8",
+    "batch_sizes": [],
+    "device": "mps",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },"
+
+HellaSwag-GPT2-M: "
+
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=openai-community/gpt2-medium",
+    "model_num_parameters": 354823168,
+    "model_dtype": "torch.float32",
+    "model_revision": "main",
+    "model_sha": "6dcaa7a952f72f9298047fd5137cd6e4f05f41da",
+    "batch_size": "auto",
+    "batch_sizes": [
+      64
+    ],
+    "device": "mps",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },"
+
+HellaSwag-C16: "
+
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=ariankharazmi/Curiosity-16",
+    "model_num_parameters": 354823168,
+    "model_dtype": "torch.float32",
+    "model_revision": "main",
+    "model_sha": "a689ed4383cc79e51d3185efdb09c1951cd99934",
+    "batch_size": "auto",
+    "batch_sizes": [
+      64
+    ],
+    "device": "mps",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },"

@@ -1,0 +1,627 @@
+MMLU & HellaSwag C16 Info:
+
+“Ok. I ran all of them. "fatal: not a git repository (or any of the parent directories): .git
+2025-08-16:21:26:02 INFO     [loggers.evaluation_tracker:209] Saving results aggregated
+2025-08-16:21:26:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: hellaswag
+hf (pretrained=ariankharazmi/Curiosity-16), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: auto (64)
+|  Tasks  |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|---------|------:|------|-----:|--------|---|-----:|---|-----:|
+|hellaswag|      1|none  |     0|acc     |↑  |0.3385|±  |0.0047|
+|         |       |none  |     0|acc_norm|↑  |0.3967|±  |0.0049|
+
+(.venv) ariankharazmi@mac Curiosity-Eval1 % 
+Running loglikelihood requests: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 56168/56168 [11:56<00:00, 78.35it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:209] Saving results aggregated
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_abstract_algebra
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_anatomy
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_astronomy
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_business_ethics
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_clinical_knowledge
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_biology
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_chemistry
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_computer_science
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_mathematics
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_medicine
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_physics
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_computer_security
+2025-08-17:00:11:02 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_conceptual_physics
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_econometrics
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_electrical_engineering
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_elementary_mathematics
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_formal_logic
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_global_facts
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_biology
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_chemistry
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_computer_science
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_european_history
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_geography
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_government_and_politics
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_macroeconomics
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_mathematics
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_microeconomics
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_physics
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_psychology
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_statistics
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_us_history
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_world_history
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_human_aging
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_human_sexuality
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_international_law
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_jurisprudence
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_logical_fallacies
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_machine_learning
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_management
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_marketing
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_medical_genetics
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_miscellaneous
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_moral_disputes
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_moral_scenarios
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_nutrition
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_philosophy
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_prehistory
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_accounting
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_law
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_medicine
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_psychology
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_public_relations
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_security_studies
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_sociology
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_us_foreign_policy
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_virology
+2025-08-17:00:11:03 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_world_religions
+hf (pretrained=ariankharazmi/Curiosity-16), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 2
+|                 Tasks                 |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|---------------------------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|mmlu                                   |      2|none  |      |acc   |↑  |0.2375|±  |0.0036|
+| - humanities                          |      2|none  |      |acc   |↑  |0.2557|±  |0.0064|
+|  - formal_logic                       |      1|none  |     0|acc   |↑  |0.3175|±  |0.0416|
+|  - high_school_european_history       |      1|none  |     0|acc   |↑  |0.2667|±  |0.0345|
+|  - high_school_us_history             |      1|none  |     0|acc   |↑  |0.2451|±  |0.0302|
+|  - high_school_world_history          |      1|none  |     0|acc   |↑  |0.2532|±  |0.0283|
+|  - international_law                  |      1|none  |     0|acc   |↑  |0.2314|±  |0.0385|
+|  - jurisprudence                      |      1|none  |     0|acc   |↑  |0.2685|±  |0.0428|
+|  - logical_fallacies                  |      1|none  |     0|acc   |↑  |0.2577|±  |0.0344|
+|  - moral_disputes                     |      1|none  |     0|acc   |↑  |0.2399|±  |0.0230|
+|  - moral_scenarios                    |      1|none  |     0|acc   |↑  |0.2726|±  |0.0149|
+|  - philosophy                         |      1|none  |     0|acc   |↑  |0.1929|±  |0.0224|
+|  - prehistory                         |      1|none  |     0|acc   |↑  |0.2438|±  |0.0239|
+|  - professional_law                   |      1|none  |     0|acc   |↑  |0.2581|±  |0.0112|
+|  - world_religions                    |      1|none  |     0|acc   |↑  |0.2807|±  |0.0345|
+| - other                               |      2|none  |      |acc   |↑  |0.2481|±  |0.0077|
+|  - business_ethics                    |      1|none  |     0|acc   |↑  |0.3100|±  |0.0465|
+|  - clinical_knowledge                 |      1|none  |     0|acc   |↑  |0.2302|±  |0.0259|
+|  - college_medicine                   |      1|none  |     0|acc   |↑  |0.2428|±  |0.0327|
+|  - global_facts                       |      1|none  |     0|acc   |↑  |0.1800|±  |0.0386|
+|  - human_aging                        |      1|none  |     0|acc   |↑  |0.3094|±  |0.0310|
+|  - management                         |      1|none  |     0|acc   |↑  |0.2039|±  |0.0399|
+|  - marketing                          |      1|none  |     0|acc   |↑  |0.2906|±  |0.0297|
+|  - medical_genetics                   |      1|none  |     0|acc   |↑  |0.3500|±  |0.0479|
+|  - miscellaneous                      |      1|none  |     0|acc   |↑  |0.2286|±  |0.0150|
+|  - nutrition                          |      1|none  |     0|acc   |↑  |0.2157|±  |0.0236|
+|  - professional_accounting            |      1|none  |     0|acc   |↑  |0.2482|±  |0.0258|
+|  - professional_medicine              |      1|none  |     0|acc   |↑  |0.2426|±  |0.0260|
+|  - virology                           |      1|none  |     0|acc   |↑  |0.2711|±  |0.0346|
+| - social sciences                     |      2|none  |      |acc   |↑  |0.2197|±  |0.0075|
+|  - econometrics                       |      1|none  |     0|acc   |↑  |0.2281|±  |0.0395|
+|  - high_school_geography              |      1|none  |     0|acc   |↑  |0.2172|±  |0.0294|
+|  - high_school_government_and_politics|      1|none  |     0|acc   |↑  |0.2124|±  |0.0295|
+|  - high_school_macroeconomics         |      1|none  |     0|acc   |↑  |0.2077|±  |0.0206|
+|  - high_school_microeconomics         |      1|none  |     0|acc   |↑  |0.1891|±  |0.0254|
+|  - high_school_psychology             |      1|none  |     0|acc   |↑  |0.2147|±  |0.0176|
+|  - human_sexuality                    |      1|none  |     0|acc   |↑  |0.2595|±  |0.0384|
+|  - professional_psychology            |      1|none  |     0|acc   |↑  |0.2304|±  |0.0170|
+|  - public_relations                   |      1|none  |     0|acc   |↑  |0.2182|±  |0.0396|
+|  - security_studies                   |      1|none  |     0|acc   |↑  |0.2000|±  |0.0256|
+|  - sociology                          |      1|none  |     0|acc   |↑  |0.2338|±  |0.0299|
+|  - us_foreign_policy                  |      1|none  |     0|acc   |↑  |0.2800|±  |0.0451|
+| - stem                                |      2|none  |      |acc   |↑  |0.2173|±  |0.0073|
+|  - abstract_algebra                   |      1|none  |     0|acc   |↑  |0.1500|±  |0.0359|
+|  - anatomy                            |      1|none  |     0|acc   |↑  |0.2370|±  |0.0367|
+|  - astronomy                          |      1|none  |     0|acc   |↑  |0.2105|±  |0.0332|
+|  - college_biology                    |      1|none  |     0|acc   |↑  |0.2222|±  |0.0348|
+|  - college_chemistry                  |      1|none  |     0|acc   |↑  |0.1500|±  |0.0359|
+|  - college_computer_science           |      1|none  |     0|acc   |↑  |0.2800|±  |0.0451|
+|  - college_mathematics                |      1|none  |     0|acc   |↑  |0.2200|±  |0.0416|
+|  - college_physics                    |      1|none  |     0|acc   |↑  |0.2451|±  |0.0428|
+|  - computer_security                  |      1|none  |     0|acc   |↑  |0.2800|±  |0.0451|
+|  - conceptual_physics                 |      1|none  |     0|acc   |↑  |0.2511|±  |0.0283|
+|  - electrical_engineering             |      1|none  |     0|acc   |↑  |0.2276|±  |0.0349|
+|  - elementary_mathematics             |      1|none  |     0|acc   |↑  |0.2222|±  |0.0214|
+|  - high_school_biology                |      1|none  |     0|acc   |↑  |0.1839|±  |0.0220|
+|  - high_school_chemistry              |      1|none  |     0|acc   |↑  |0.2365|±  |0.0299|
+|  - high_school_computer_science       |      1|none  |     0|acc   |↑  |0.2300|±  |0.0423|
+|  - high_school_mathematics            |      1|none  |     0|acc   |↑  |0.2259|±  |0.0255|
+|  - high_school_physics                |      1|none  |     0|acc   |↑  |0.1987|±  |0.0326|
+|  - high_school_statistics             |      1|none  |     0|acc   |↑  |0.1898|±  |0.0267|
+|  - machine_learning                   |      1|none  |     0|acc   |↑  |0.1786|±  |0.0364|
+
+|      Groups      |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------------|------:|------|------|------|---|-----:|---|-----:|
+|mmlu              |      2|none  |      |acc   |↑  |0.2375|±  |0.0036|
+| - humanities     |      2|none  |      |acc   |↑  |0.2557|±  |0.0064|
+| - other          |      2|none  |      |acc   |↑  |0.2481|±  |0.0077|
+| - social sciences|      2|none  |      |acc   |↑  |0.2197|±  |0.0075|
+| - stem           |      2|none  |      |acc   |↑  |0.2173|±  |0.0073|
+
+(.venv) ariankharazmi@mac Curiosity-Eval1 % 
+Running loglikelihood requests: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40168/40168 [07:44<00:00, 86.50it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2025-08-17:00:19:48 INFO     [loggers.evaluation_tracker:209] Saving results aggregated
+2025-08-17:00:19:48 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: hellaswag
+hf (pretrained=ariankharazmi/Curiosity-14), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: auto (64)
+|  Tasks  |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|---------|------:|------|-----:|--------|---|-----:|---|-----:|
+|hellaswag|      1|none  |     0|acc     |↑  |0.2919|±  |0.0045|
+|         |       |none  |     0|acc_norm|↑  |0.3123|±  |0.0046|
+
+(.venv) ariankharazmi@mac Curiosity-Eval1 % 
+Running loglikelihood requests: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 56168/56168 [05:27<00:00, 171.56it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:209] Saving results aggregated
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_abstract_algebra
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_anatomy
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_astronomy
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_business_ethics
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_clinical_knowledge
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_biology
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_chemistry
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_computer_science
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_mathematics
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_medicine
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_physics
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_computer_security
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_conceptual_physics
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_econometrics
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_electrical_engineering
+2025-08-17:00:27:12 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_elementary_mathematics
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_formal_logic
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_global_facts
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_biology
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_chemistry
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_computer_science
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_european_history
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_geography
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_government_and_politics
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_macroeconomics
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_mathematics
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_microeconomics
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_physics
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_psychology
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_statistics
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_us_history
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_world_history
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_human_aging
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_human_sexuality
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_international_law
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_jurisprudence
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_logical_fallacies
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_machine_learning
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_management
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_marketing
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_medical_genetics
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_miscellaneous
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_moral_disputes
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_moral_scenarios
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_nutrition
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_philosophy
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_prehistory
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_accounting
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_law
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_medicine
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_psychology
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_public_relations
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_security_studies
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_sociology
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_us_foreign_policy
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_virology
+2025-08-17:00:27:13 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_world_religions
+hf (pretrained=ariankharazmi/Curiosity-14), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 2
+|                 Tasks                 |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|---------------------------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|mmlu                                   |      2|none  |      |acc   |↑  |0.2290|±  |0.0035|
+| - humanities                          |      2|none  |      |acc   |↑  |0.2414|±  |0.0062|
+|  - formal_logic                       |      1|none  |     0|acc   |↑  |0.2698|±  |0.0397|
+|  - high_school_european_history       |      1|none  |     0|acc   |↑  |0.2182|±  |0.0323|
+|  - high_school_us_history             |      1|none  |     0|acc   |↑  |0.2500|±  |0.0304|
+|  - high_school_world_history          |      1|none  |     0|acc   |↑  |0.2700|±  |0.0289|
+|  - international_law                  |      1|none  |     0|acc   |↑  |0.2397|±  |0.0390|
+|  - jurisprudence                      |      1|none  |     0|acc   |↑  |0.2685|±  |0.0428|
+|  - logical_fallacies                  |      1|none  |     0|acc   |↑  |0.2270|±  |0.0329|
+|  - moral_disputes                     |      1|none  |     0|acc   |↑  |0.2457|±  |0.0232|
+|  - moral_scenarios                    |      1|none  |     0|acc   |↑  |0.2380|±  |0.0142|
+|  - philosophy                         |      1|none  |     0|acc   |↑  |0.1833|±  |0.0220|
+|  - prehistory                         |      1|none  |     0|acc   |↑  |0.2160|±  |0.0229|
+|  - professional_law                   |      1|none  |     0|acc   |↑  |0.2458|±  |0.0110|
+|  - world_religions                    |      1|none  |     0|acc   |↑  |0.3158|±  |0.0357|
+| - other                               |      2|none  |      |acc   |↑  |0.2375|±  |0.0076|
+|  - business_ethics                    |      1|none  |     0|acc   |↑  |0.3000|±  |0.0461|
+|  - clinical_knowledge                 |      1|none  |     0|acc   |↑  |0.2038|±  |0.0248|
+|  - college_medicine                   |      1|none  |     0|acc   |↑  |0.2081|±  |0.0310|
+|  - global_facts                       |      1|none  |     0|acc   |↑  |0.1800|±  |0.0386|
+|  - human_aging                        |      1|none  |     0|acc   |↑  |0.3139|±  |0.0311|
+|  - management                         |      1|none  |     0|acc   |↑  |0.1748|±  |0.0376|
+|  - marketing                          |      1|none  |     0|acc   |↑  |0.2906|±  |0.0297|
+|  - medical_genetics                   |      1|none  |     0|acc   |↑  |0.3100|±  |0.0465|
+|  - miscellaneous                      |      1|none  |     0|acc   |↑  |0.2337|±  |0.0151|
+|  - nutrition                          |      1|none  |     0|acc   |↑  |0.2157|±  |0.0236|
+|  - professional_accounting            |      1|none  |     0|acc   |↑  |0.2305|±  |0.0251|
+|  - professional_medicine              |      1|none  |     0|acc   |↑  |0.1912|±  |0.0239|
+|  - virology                           |      1|none  |     0|acc   |↑  |0.2831|±  |0.0351|
+| - social sciences                     |      2|none  |      |acc   |↑  |0.2177|±  |0.0074|
+|  - econometrics                       |      1|none  |     0|acc   |↑  |0.2456|±  |0.0405|
+|  - high_school_geography              |      1|none  |     0|acc   |↑  |0.1818|±  |0.0275|
+|  - high_school_government_and_politics|      1|none  |     0|acc   |↑  |0.1969|±  |0.0287|
+|  - high_school_macroeconomics         |      1|none  |     0|acc   |↑  |0.2026|±  |0.0204|
+|  - high_school_microeconomics         |      1|none  |     0|acc   |↑  |0.2101|±  |0.0265|
+|  - high_school_psychology             |      1|none  |     0|acc   |↑  |0.1908|±  |0.0168|
+|  - human_sexuality                    |      1|none  |     0|acc   |↑  |0.2595|±  |0.0384|
+|  - professional_psychology            |      1|none  |     0|acc   |↑  |0.2516|±  |0.0176|
+|  - public_relations                   |      1|none  |     0|acc   |↑  |0.2182|±  |0.0396|
+|  - security_studies                   |      1|none  |     0|acc   |↑  |0.1878|±  |0.0250|
+|  - sociology                          |      1|none  |     0|acc   |↑  |0.2438|±  |0.0304|
+|  - us_foreign_policy                  |      1|none  |     0|acc   |↑  |0.2800|±  |0.0451|
+| - stem                                |      2|none  |      |acc   |↑  |0.2131|±  |0.0073|
+|  - abstract_algebra                   |      1|none  |     0|acc   |↑  |0.2100|±  |0.0409|
+|  - anatomy                            |      1|none  |     0|acc   |↑  |0.2000|±  |0.0346|
+|  - astronomy                          |      1|none  |     0|acc   |↑  |0.1776|±  |0.0311|
+|  - college_biology                    |      1|none  |     0|acc   |↑  |0.2569|±  |0.0365|
+|  - college_chemistry                  |      1|none  |     0|acc   |↑  |0.1900|±  |0.0394|
+|  - college_computer_science           |      1|none  |     0|acc   |↑  |0.2500|±  |0.0435|
+|  - college_mathematics                |      1|none  |     0|acc   |↑  |0.2100|±  |0.0409|
+|  - college_physics                    |      1|none  |     0|acc   |↑  |0.2157|±  |0.0409|
+|  - computer_security                  |      1|none  |     0|acc   |↑  |0.2800|±  |0.0451|
+|  - conceptual_physics                 |      1|none  |     0|acc   |↑  |0.2638|±  |0.0288|
+|  - electrical_engineering             |      1|none  |     0|acc   |↑  |0.2414|±  |0.0357|
+|  - elementary_mathematics             |      1|none  |     0|acc   |↑  |0.2116|±  |0.0210|
+|  - high_school_biology                |      1|none  |     0|acc   |↑  |0.1774|±  |0.0217|
+|  - high_school_chemistry              |      1|none  |     0|acc   |↑  |0.1576|±  |0.0256|
+|  - high_school_computer_science       |      1|none  |     0|acc   |↑  |0.2500|±  |0.0435|
+|  - high_school_mathematics            |      1|none  |     0|acc   |↑  |0.2111|±  |0.0249|
+|  - high_school_physics                |      1|none  |     0|acc   |↑  |0.1987|±  |0.0326|
+|  - high_school_statistics             |      1|none  |     0|acc   |↑  |0.1528|±  |0.0245|
+|  - machine_learning                   |      1|none  |     0|acc   |↑  |0.3214|±  |0.0443|
+
+|      Groups      |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------------|------:|------|------|------|---|-----:|---|-----:|
+|mmlu              |      2|none  |      |acc   |↑  |0.2290|±  |0.0035|
+| - humanities     |      2|none  |      |acc   |↑  |0.2414|±  |0.0062|
+| - other          |      2|none  |      |acc   |↑  |0.2375|±  |0.0076|
+| - social sciences|      2|none  |      |acc   |↑  |0.2177|±  |0.0074|
+| - stem           |      2|none  |      |acc   |↑  |0.2131|±  |0.0073|
+
+(.venv) ariankharazmi@mac Curiosity-Eval1 % 
+Running loglikelihood requests: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40168/40168 [07:45<00:00, 86.22it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2025-08-17:00:36:10 INFO     [loggers.evaluation_tracker:209] Saving results aggregated
+2025-08-17:00:36:10 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: hellaswag
+hf (pretrained=openai-community/gpt2), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: auto (64)
+|  Tasks  |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|---------|------:|------|-----:|--------|---|-----:|---|-----:|
+|hellaswag|      1|none  |     0|acc     |↑  |0.2892|±  |0.0045|
+|         |       |none  |     0|acc_norm|↑  |0.3114|±  |0.0046|
+
+(.venv) ariankharazmi@mac Curiosity-Eval1 % Running loglikelihood requests: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 56168/56168 [05:28<00:00, 170.92it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:209] Saving results aggregated
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_abstract_algebra
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_anatomy
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_astronomy
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_business_ethics
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_clinical_knowledge
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_biology
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_chemistry
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_computer_science
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_mathematics
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_medicine
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_physics
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_computer_security
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_conceptual_physics
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_econometrics
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_electrical_engineering
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_elementary_mathematics
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_formal_logic
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_global_facts
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_biology
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_chemistry
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_computer_science
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_european_history
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_geography
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_government_and_politics
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_macroeconomics
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_mathematics
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_microeconomics
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_physics
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_psychology
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_statistics
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_us_history
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_world_history
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_human_aging
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_human_sexuality
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_international_law
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_jurisprudence
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_logical_fallacies
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_machine_learning
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_management
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_marketing
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_medical_genetics
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_miscellaneous
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_moral_disputes
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_moral_scenarios
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_nutrition
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_philosophy
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_prehistory
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_accounting
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_law
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_medicine
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_psychology
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_public_relations
+2025-08-17:02:06:38 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_security_studies
+2025-08-17:02:06:39 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_sociology
+2025-08-17:02:06:39 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_us_foreign_policy
+2025-08-17:02:06:39 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_virology
+2025-08-17:02:06:39 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_world_religions
+hf (pretrained=openai-community/gpt2), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 2
+|                 Tasks                 |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|---------------------------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|mmlu                                   |      2|none  |      |acc   |↑  |0.2292|±  |0.0035|
+| - humanities                          |      2|none  |      |acc   |↑  |0.2421|±  |0.0062|
+|  - formal_logic                       |      1|none  |     0|acc   |↑  |0.2778|±  |0.0401|
+|  - high_school_european_history       |      1|none  |     0|acc   |↑  |0.2182|±  |0.0323|
+|  - high_school_us_history             |      1|none  |     0|acc   |↑  |0.2500|±  |0.0304|
+|  - high_school_world_history          |      1|none  |     0|acc   |↑  |0.2700|±  |0.0289|
+|  - international_law                  |      1|none  |     0|acc   |↑  |0.2397|±  |0.0390|
+|  - jurisprudence                      |      1|none  |     0|acc   |↑  |0.2685|±  |0.0428|
+|  - logical_fallacies                  |      1|none  |     0|acc   |↑  |0.2209|±  |0.0326|
+|  - moral_disputes                     |      1|none  |     0|acc   |↑  |0.2457|±  |0.0232|
+|  - moral_scenarios                    |      1|none  |     0|acc   |↑  |0.2380|±  |0.0142|
+|  - philosophy                         |      1|none  |     0|acc   |↑  |0.1897|±  |0.0223|
+|  - prehistory                         |      1|none  |     0|acc   |↑  |0.2160|±  |0.0229|
+|  - professional_law                   |      1|none  |     0|acc   |↑  |0.2458|±  |0.0110|
+|  - world_religions                    |      1|none  |     0|acc   |↑  |0.3216|±  |0.0358|
+| - other                               |      2|none  |      |acc   |↑  |0.2382|±  |0.0076|
+|  - business_ethics                    |      1|none  |     0|acc   |↑  |0.3000|±  |0.0461|
+|  - clinical_knowledge                 |      1|none  |     0|acc   |↑  |0.2075|±  |0.0250|
+|  - college_medicine                   |      1|none  |     0|acc   |↑  |0.2081|±  |0.0310|
+|  - global_facts                       |      1|none  |     0|acc   |↑  |0.1800|±  |0.0386|
+|  - human_aging                        |      1|none  |     0|acc   |↑  |0.3139|±  |0.0311|
+|  - management                         |      1|none  |     0|acc   |↑  |0.1748|±  |0.0376|
+|  - marketing                          |      1|none  |     0|acc   |↑  |0.2906|±  |0.0297|
+|  - medical_genetics                   |      1|none  |     0|acc   |↑  |0.3100|±  |0.0465|
+|  - miscellaneous                      |      1|none  |     0|acc   |↑  |0.2337|±  |0.0151|
+|  - nutrition                          |      1|none  |     0|acc   |↑  |0.2157|±  |0.0236|
+|  - professional_accounting            |      1|none  |     0|acc   |↑  |0.2305|±  |0.0251|
+|  - professional_medicine              |      1|none  |     0|acc   |↑  |0.1949|±  |0.0241|
+|  - virology                           |      1|none  |     0|acc   |↑  |0.2831|±  |0.0351|
+| - social sciences                     |      2|none  |      |acc   |↑  |0.2171|±  |0.0074|
+|  - econometrics                       |      1|none  |     0|acc   |↑  |0.2368|±  |0.0400|
+|  - high_school_geography              |      1|none  |     0|acc   |↑  |0.1818|±  |0.0275|
+|  - high_school_government_and_politics|      1|none  |     0|acc   |↑  |0.1969|±  |0.0287|
+|  - high_school_macroeconomics         |      1|none  |     0|acc   |↑  |0.2026|±  |0.0204|
+|  - high_school_microeconomics         |      1|none  |     0|acc   |↑  |0.2101|±  |0.0265|
+|  - high_school_psychology             |      1|none  |     0|acc   |↑  |0.1908|±  |0.0168|
+|  - human_sexuality                    |      1|none  |     0|acc   |↑  |0.2595|±  |0.0384|
+|  - professional_psychology            |      1|none  |     0|acc   |↑  |0.2500|±  |0.0175|
+|  - public_relations                   |      1|none  |     0|acc   |↑  |0.2182|±  |0.0396|
+|  - security_studies                   |      1|none  |     0|acc   |↑  |0.1878|±  |0.0250|
+|  - sociology                          |      1|none  |     0|acc   |↑  |0.2438|±  |0.0304|
+|  - us_foreign_policy                  |      1|none  |     0|acc   |↑  |0.2800|±  |0.0451|
+| - stem                                |      2|none  |      |acc   |↑  |0.2131|±  |0.0073|
+|  - abstract_algebra                   |      1|none  |     0|acc   |↑  |0.2200|±  |0.0416|
+|  - anatomy                            |      1|none  |     0|acc   |↑  |0.2000|±  |0.0346|
+|  - astronomy                          |      1|none  |     0|acc   |↑  |0.1776|±  |0.0311|
+|  - college_biology                    |      1|none  |     0|acc   |↑  |0.2569|±  |0.0365|
+|  - college_chemistry                  |      1|none  |     0|acc   |↑  |0.1900|±  |0.0394|
+|  - college_computer_science           |      1|none  |     0|acc   |↑  |0.2500|±  |0.0435|
+|  - college_mathematics                |      1|none  |     0|acc   |↑  |0.2100|±  |0.0409|
+|  - college_physics                    |      1|none  |     0|acc   |↑  |0.2157|±  |0.0409|
+|  - computer_security                  |      1|none  |     0|acc   |↑  |0.2800|±  |0.0451|
+|  - conceptual_physics                 |      1|none  |     0|acc   |↑  |0.2638|±  |0.0288|
+|  - electrical_engineering             |      1|none  |     0|acc   |↑  |0.2414|±  |0.0357|
+|  - elementary_mathematics             |      1|none  |     0|acc   |↑  |0.2090|±  |0.0209|
+|  - high_school_biology                |      1|none  |     0|acc   |↑  |0.1774|±  |0.0217|
+|  - high_school_chemistry              |      1|none  |     0|acc   |↑  |0.1527|±  |0.0253|
+|  - high_school_computer_science       |      1|none  |     0|acc   |↑  |0.2500|±  |0.0435|
+|  - high_school_mathematics            |      1|none  |     0|acc   |↑  |0.2111|±  |0.0249|
+|  - high_school_physics                |      1|none  |     0|acc   |↑  |0.1987|±  |0.0326|
+|  - high_school_statistics             |      1|none  |     0|acc   |↑  |0.1528|±  |0.0245|
+|  - machine_learning                   |      1|none  |     0|acc   |↑  |0.3304|±  |0.0446|
+
+|      Groups      |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------------|------:|------|------|------|---|-----:|---|-----:|
+|mmlu              |      2|none  |      |acc   |↑  |0.2292|±  |0.0035|
+| - humanities     |      2|none  |      |acc   |↑  |0.2421|±  |0.0062|
+| - other          |      2|none  |      |acc   |↑  |0.2382|±  |0.0076|
+| - social sciences|      2|none  |      |acc   |↑  |0.2171|±  |0.0074|
+| - stem           |      2|none  |      |acc   |↑  |0.2131|±  |0.0073|
+
+(.venv) ariankharazmi@mac Curiosity-Eval1 % 
+Determined largest batch size: 64
+Running loglikelihood requests: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40168/40168 [18:53<00:00, 35.43it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2025-08-17:02:26:42 INFO     [loggers.evaluation_tracker:209] Saving results aggregated
+2025-08-17:02:26:42 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: hellaswag
+hf (pretrained=openai-community/gpt2-medium), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: auto (64)
+|  Tasks  |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|---------|------:|------|-----:|--------|---|-----:|---|-----:|
+|hellaswag|      1|none  |     0|acc     |↑  |0.3331|±  |0.0047|
+|         |       |none  |     0|acc_norm|↑  |0.3938|±  |0.0049|
+
+(.venv) ariankharazmi@mac Curiosity-Eval1 % 
+2025-08-17:02:27:59 INFO     [evaluator:574] Running loglikelihood requests
+Running loglikelihood requests: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 56168/56168 [12:19<00:00, 75.96it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:209] Saving results aggregated
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_abstract_algebra
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_anatomy
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_astronomy
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_business_ethics
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_clinical_knowledge
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_biology
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_chemistry
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_computer_science
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_mathematics
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_medicine
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_college_physics
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_computer_security
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_conceptual_physics
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_econometrics
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_electrical_engineering
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_elementary_mathematics
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_formal_logic
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_global_facts
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_biology
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_chemistry
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_computer_science
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_european_history
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_geography
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_government_and_politics
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_macroeconomics
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_mathematics
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_microeconomics
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_physics
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_psychology
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_statistics
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_us_history
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_high_school_world_history
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_human_aging
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_human_sexuality
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_international_law
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_jurisprudence
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_logical_fallacies
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_machine_learning
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_management
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_marketing
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_medical_genetics
+2025-08-17:02:40:32 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_miscellaneous
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_moral_disputes
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_moral_scenarios
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_nutrition
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_philosophy
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_prehistory
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_accounting
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_law
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_medicine
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_professional_psychology
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_public_relations
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_security_studies
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_sociology
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_us_foreign_policy
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_virology
+2025-08-17:02:40:33 INFO     [loggers.evaluation_tracker:298] Saving per-sample results for: mmlu_world_religions
+hf (pretrained=openai-community/gpt2-medium), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 2
+|                 Tasks                 |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|---------------------------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|mmlu                                   |      2|none  |      |acc   |↑  |0.2290|±  |0.0035|
+| - humanities                          |      2|none  |      |acc   |↑  |0.2427|±  |0.0062|
+|  - formal_logic                       |      1|none  |     0|acc   |↑  |0.2937|±  |0.0407|
+|  - high_school_european_history       |      1|none  |     0|acc   |↑  |0.2182|±  |0.0323|
+|  - high_school_us_history             |      1|none  |     0|acc   |↑  |0.2451|±  |0.0302|
+|  - high_school_world_history          |      1|none  |     0|acc   |↑  |0.2658|±  |0.0288|
+|  - international_law                  |      1|none  |     0|acc   |↑  |0.2397|±  |0.0390|
+|  - jurisprudence                      |      1|none  |     0|acc   |↑  |0.2500|±  |0.0419|
+|  - logical_fallacies                  |      1|none  |     0|acc   |↑  |0.2209|±  |0.0326|
+|  - moral_disputes                     |      1|none  |     0|acc   |↑  |0.2486|±  |0.0233|
+|  - moral_scenarios                    |      1|none  |     0|acc   |↑  |0.2436|±  |0.0144|
+|  - philosophy                         |      1|none  |     0|acc   |↑  |0.1865|±  |0.0221|
+|  - prehistory                         |      1|none  |     0|acc   |↑  |0.2222|±  |0.0231|
+|  - professional_law                   |      1|none  |     0|acc   |↑  |0.2451|±  |0.0110|
+|  - world_religions                    |      1|none  |     0|acc   |↑  |0.3158|±  |0.0357|
+| - other                               |      2|none  |      |acc   |↑  |0.2350|±  |0.0076|
+|  - business_ethics                    |      1|none  |     0|acc   |↑  |0.3000|±  |0.0461|
+|  - clinical_knowledge                 |      1|none  |     0|acc   |↑  |0.2038|±  |0.0248|
+|  - college_medicine                   |      1|none  |     0|acc   |↑  |0.2139|±  |0.0313|
+|  - global_facts                       |      1|none  |     0|acc   |↑  |0.1900|±  |0.0394|
+|  - human_aging                        |      1|none  |     0|acc   |↑  |0.3184|±  |0.0313|
+|  - management                         |      1|none  |     0|acc   |↑  |0.1748|±  |0.0376|
+|  - marketing                          |      1|none  |     0|acc   |↑  |0.2949|±  |0.0299|
+|  - medical_genetics                   |      1|none  |     0|acc   |↑  |0.3000|±  |0.0461|
+|  - miscellaneous                      |      1|none  |     0|acc   |↑  |0.2337|±  |0.0151|
+|  - nutrition                          |      1|none  |     0|acc   |↑  |0.1863|±  |0.0223|
+|  - professional_accounting            |      1|none  |     0|acc   |↑  |0.2305|±  |0.0251|
+|  - professional_medicine              |      1|none  |     0|acc   |↑  |0.1838|±  |0.0235|
+|  - virology                           |      1|none  |     0|acc   |↑  |0.2831|±  |0.0351|
+| - social sciences                     |      2|none  |      |acc   |↑  |0.2184|±  |0.0074|
+|  - econometrics                       |      1|none  |     0|acc   |↑  |0.2368|±  |0.0400|
+|  - high_school_geography              |      1|none  |     0|acc   |↑  |0.1818|±  |0.0275|
+|  - high_school_government_and_politics|      1|none  |     0|acc   |↑  |0.1969|±  |0.0287|
+|  - high_school_macroeconomics         |      1|none  |     0|acc   |↑  |0.2051|±  |0.0205|
+|  - high_school_microeconomics         |      1|none  |     0|acc   |↑  |0.2101|±  |0.0265|
+|  - high_school_psychology             |      1|none  |     0|acc   |↑  |0.1945|±  |0.0170|
+|  - human_sexuality                    |      1|none  |     0|acc   |↑  |0.2519|±  |0.0381|
+|  - professional_psychology            |      1|none  |     0|acc   |↑  |0.2549|±  |0.0176|
+|  - public_relations                   |      1|none  |     0|acc   |↑  |0.2182|±  |0.0396|
+|  - security_studies                   |      1|none  |     0|acc   |↑  |0.1878|±  |0.0250|
+|  - sociology                          |      1|none  |     0|acc   |↑  |0.2438|±  |0.0304|
+|  - us_foreign_policy                  |      1|none  |     0|acc   |↑  |0.2700|±  |0.0446|
+| - stem                                |      2|none  |      |acc   |↑  |0.2128|±  |0.0073|
+|  - abstract_algebra                   |      1|none  |     0|acc   |↑  |0.2000|±  |0.0402|
+|  - anatomy                            |      1|none  |     0|acc   |↑  |0.1926|±  |0.0341|
+|  - astronomy                          |      1|none  |     0|acc   |↑  |0.1908|±  |0.0320|
+|  - college_biology                    |      1|none  |     0|acc   |↑  |0.2569|±  |0.0365|
+|  - college_chemistry                  |      1|none  |     0|acc   |↑  |0.1600|±  |0.0368|
+|  - college_computer_science           |      1|none  |     0|acc   |↑  |0.2400|±  |0.0429|
+|  - college_mathematics                |      1|none  |     0|acc   |↑  |0.2300|±  |0.0423|
+|  - college_physics                    |      1|none  |     0|acc   |↑  |0.1765|±  |0.0379|
+|  - computer_security                  |      1|none  |     0|acc   |↑  |0.2800|±  |0.0451|
+|  - conceptual_physics                 |      1|none  |     0|acc   |↑  |0.2681|±  |0.0290|
+|  - electrical_engineering             |      1|none  |     0|acc   |↑  |0.2483|±  |0.0360|
+|  - elementary_mathematics             |      1|none  |     0|acc   |↑  |0.2169|±  |0.0212|
+|  - high_school_biology                |      1|none  |     0|acc   |↑  |0.1774|±  |0.0217|
+|  - high_school_chemistry              |      1|none  |     0|acc   |↑  |0.2118|±  |0.0287|
+|  - high_school_computer_science       |      1|none  |     0|acc   |↑  |0.2700|±  |0.0446|
+|  - high_school_mathematics            |      1|none  |     0|acc   |↑  |0.2148|±  |0.0250|
+|  - high_school_physics                |      1|none  |     0|acc   |↑  |0.1987|±  |0.0326|
+|  - high_school_statistics             |      1|none  |     0|acc   |↑  |0.1574|±  |0.0248|
+|  - machine_learning                   |      1|none  |     0|acc   |↑  |0.1964|±  |0.0377|
+
+|      Groups      |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------------|------:|------|------|------|---|-----:|---|-----:|
+|mmlu              |      2|none  |      |acc   |↑  |0.2290|±  |0.0035|
+| - humanities     |      2|none  |      |acc   |↑  |0.2427|±  |0.0062|
+| - other          |      2|none  |      |acc   |↑  |0.2350|±  |0.0076|
+| - social sciences|      2|none  |      |acc   |↑  |0.2184|±  |0.0074|
+| - stem           |      2|none  |      |acc   |↑  |0.2128|±  |0.0073|
+
+(.venv) ariankharazmi@mac Curiosity-Eval1 % 
+“”
+
+Commands used: (HellaSwag): “# C16
+lm_eval --model hf --model_args pretrained=ariankharazmi/Curiosity-16 \
+  --tasks hellaswag --device mps --batch_size auto \
+  --output_path results/C16_hellaswag_logs
+
+# C14
+lm_eval --model hf --model_args pretrained=ariankharazmi/Curiosity-14 \
+  --tasks hellaswag --device mps --batch_size auto \
+  --output_path results/C14_hellaswag_logs
+
+# GPT-2 Small
+lm_eval --model hf --model_args pretrained=openai-community/gpt2 \
+  --tasks hellaswag --device mps --batch_size auto \
+  --output_path results/gpt2s_hellaswag_logs
+
+# GPT-2 Medium
+lm_eval --model hf --model_args pretrained=openai-community/gpt2-medium \
+  --tasks hellaswag --device mps --batch_size auto \
+  --output_path results/gpt2m_hellaswag_logs”
+
+Commands Used: MMLU: “# C16
+lm_eval --model hf --model_args pretrained=ariankharazmi/Curiosity-16 \
+  --tasks mmlu --device mps --batch_size 2 \
+  --output_path results/C16_mmlu_logs
+
+# C14
+lm_eval --model hf --model_args pretrained=ariankharazmi/Curiosity-14 \
+  --tasks mmlu --device mps --batch_size 2 \
+  --output_path results/C14_mmlu_logs
+
+# GPT-2 Small
+lm_eval --model hf --model_args pretrained=openai-community/gpt2 \
+  --tasks mmlu --device mps --batch_size 2 \
+  --output_path results/gpt2s_mmlu_logs
+
+# GPT-2 Medium
+lm_eval --model hf --model_args pretrained=openai-community/gpt2-medium \
+  --tasks mmlu --device mps --batch_size 2 \
+  --output_path results/gpt2m_mmlu_logs”

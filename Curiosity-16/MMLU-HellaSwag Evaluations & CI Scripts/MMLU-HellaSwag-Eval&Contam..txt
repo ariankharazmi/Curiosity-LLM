@@ -1,0 +1,35 @@
+HellaSwag-MMLU Commands used for Evals (via LM-Eval-Harness)
+
+(.venv) ariankharazmi@mac Curiosity-Eval1 % 
+“”
+
+Commands used: (HellaSwag): “# C16
+lm_eval --model hf --model_args pretrained=ariankharazmi/Curiosity-16 \
+  --tasks hellaswag --device mps --batch_size auto \
+  --output_path results/C16_hellaswag_logs
+
+# GPT-2 Medium
+lm_eval --model hf --model_args pretrained=openai-community/gpt2-medium \
+  --tasks hellaswag --device mps --batch_size auto \
+  --output_path results/gpt2m_hellaswag_logs”
+
+Commands Used: MMLU: “# C16
+lm_eval --model hf --model_args pretrained=ariankharazmi/Curiosity-16 \
+  --tasks mmlu --device mps --batch_size 2 \
+  --output_path results/C16_mmlu_logs
+
+# GPT-2 Medium
+lm_eval --model hf --model_args pretrained=openai-community/gpt2-medium \
+  --tasks mmlu --device mps --batch_size 2 \
+  --output_path results/gpt2m_mmlu_logs”
+
+
+
+Example Contamination Command:
+lm_eval --model hf \
+  --model_args pretrained=ariankharazmi/Curiosity-16 \
+  --tasks mmlu,hellaswag \
+  --check_contamination \
+  --log_samples \
+  --batch_size auto \
+  --device mps
